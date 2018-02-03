@@ -1,0 +1,26 @@
+{
+	"name": "unpkg-demo-esm",
+	"version": "1.0.0",
+	"description": "A trivial module to see how unpkg exposes bare specifier modules",
+	"main": "unpkg-demo-esm.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/unpkg-demo-esm"
+	},
+	"keywords": [],
+	"author": "rektide",
+	"license": "X11",
+	"module": "unpkg-demo-esm.js",
+	"@std/esm": {
+		"esm": "js",
+		"cjs": {
+			"namedExport": true
+		}
+	},
+	"dependencies": {
+		"devrep": "^1.0.0"
+	}
+}
