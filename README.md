@@ -24,7 +24,7 @@ However if you try to use this code directly in the browser, you'll see this (or
 
 So I wrote this very simple test to see what if anything it would do to make this dependency work.
 
-Compare the [./unpkg-demo-esm.js](#unpkg-demo-esm.js) file on github with [unpkg output](https://unpkg.com/unpkg-demo-esm@1.0.0/unpkg-demo-esm.js?module):
+Compare the [./unpkg-demo-esm.js](#unpkg-demo-esmjs) file on github with [unpkg output](https://unpkg.com/unpkg-demo-esm@1.0.0/unpkg-demo-esm.js?module):
 
 ```
 import devrep from "https://unpkg.com/devrep@^1.0.0?module";
