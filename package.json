@@ -1,6 +1,6 @@
 {
 	"name": "unpkg-demo-esm",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A trivial module to see how unpkg exposes bare specifier modules",
 	"main": "unpkg-demo-esm.js",
 	"scripts": {
@@ -22,5 +22,6 @@
 	},
 	"dependencies": {
 		"devrep": "^1.0.0"
-	}
+	},
+	"esm": true
 }
